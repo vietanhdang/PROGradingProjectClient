@@ -1,0 +1,138 @@
+﻿@model ExamStudentResponse
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var accessToken = HttpContextAccessor?.HttpContext?.Items["AccessToken"] as string;
+    ViewData["Title"] = "Exam Detail";
+}
+<head>
+    <style>
+        .table-custom-width th {
+            width: 25%;
+        }
+    </style>
+</head>
+<a class="nav-link" asp-area="" asp-asp-controller="Exam" asp-action="Index"><i class="fas fa-arrow-left me-2"></i>Exam</a>
+@if (ViewData.ModelState.ContainsKey("ErrorMessage"))
+{
+    <div class="alert alert-danger text-center" role="alert">
+        @ViewData.ModelState["ErrorMessage"].Errors[0].ErrorMessage
+    </div>
+}
+@if (Model != null)
+{
+    <h2 class="text-center u-text-4 mb-2">Exam Name: @Model.ExamName</h2>
+    <h3 class="text-center u-text-3 mb-3">Exam Code: @Model.ExamCode</h3>
+    @if (Model.ExamStartTime != null && Model.ExamEndTime != null)
+    {
+        <h5 class="text-center u-text-3 mb-3">Open: @Model.ExamStartTime?.ToString("dd/MM/yyyy HH:mm:ss") - Close: @Model.ExamEndTime?.ToString("dd/MM/yyyy HH:mm:ss")</h5>
+        @if (Model?.ExamStatusPermission == 1)
+        {
+            <h5 class="text-center u-text-3 mb-3" id="timer-container">Time remaining: <span id="timer"></span></h5>
+        }
+    }
+    <p class="text-center u-text-3">
+        @await Html.PartialAsync("_ExamStatus", new Tuple<int, DateTime?, DateTime?>(Model.ExamStatus, Model.ExamStartTime, Model.ExamEndTime))
+    </p>
+    <p class="text-center u-text-3">
+        @if (Model.ExamStatusPermission == 1)
+        {
+            <a data-link="@Model?.ExamQuestionFolder" class="downloadMaterial" href="javascript:void(0)">Download Exam Material</a>
+        }
+    </p>
+    <h3 class="mb-3">Submission status</h3>
+    <table class="table table-bordered table-custom-width">
+        <tbody>
+            <tr>
+                <th scope="row">Submission status</th>
+                <td class="u-text-3">
+                    @await Html.PartialAsync("_ExamStudentStatus", new Tuple<int, DateTime?, DateTime?, int, DateTime?, DateTime?>(Model.Status, Model.StartTime, Model.SubmitedTime, Model.ExamStatus, Model.ExamStartTime, Model.ExamEndTime))
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Grading status</th>
+                <td>
+                    @if (@Model?.Score == null)
+                    {
+                        <span style="color: gray;">Not Graded</span>
+                    }
+                    else
+                    {
+                        <span style="color: green;">Graded</span>
+                    }
+                </td>
+            </tr>
+            @if (@Model?.Score != null)
+            {
+                <tr>
+                    <th scope="row">Mark</th>
+                    <td>
+                        <span style="color: gray;">@Model?.Score</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Mark Log</th>
+                    <td>
+                        <a data-value="@Model?.MarkLog" class="viewMarkLog" href="javascript:void(0)">View Mark Log</a>
+                    </td>
+                </tr>
+            }
+            <tr>
+                <th scope="row">The exam start time</th>
+                <td>@Model?.StartTime?.ToString("dd/MM/yyyy HH:mm:ss")</td>
+            </tr>
+            <tr>
+                <th scope="row">The exam submission time</th>
+                <td>@Model?.SubmitedTime?.ToString("dd/MM/yyyy HH:mm:ss")</td>
+            </tr>
+            <tr>
+                <th scope="row">Total number of submissions</th>
+                <td>@Model?.CountTimeSubmit</td>
+            </tr>
+            <tr>
+                <th scope="row">File submissions</th>
+                <td>
+                    @if (Model?.ExamStatusPermission == 1)
+                    {
+                        <input type="file" class="form-control" id="studentFileExam" name="file" />
+                    }
+                    <a data-link="@Model?.SubmitedFolder" class="downloadMaterial" href="javascript:void(0)">@Model?.SubmitedFolder?.Split("\\").Last()</a>
+                </td>
+            </tr>
+            @if (Model?.ExamStatusPermission == 1)
+            {
+                <tr>
+                    <th scope="row"></th>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                @if (Model?.Status == 1)
+                                {
+                                    <a href="javascript:void(0)" class="btn btn-primary" id="submitExam">Submit</a>
+                                }
+                                else if (Model?.Status == 2)
+                                {
+                                    <a href="javascript:void(0)" class="btn btn-primary" id="submitExam">Re-submit</a>
+                                }
+                            </div>
+                            <div class="spinner-border" role="status" id="loading" style="display: none;">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@section Scripts{
+    <script>
+        let examDetailObj = {
+            examStartTime: '@Model?.ExamStartTime',
+            examEndTime: '@Model?.ExamEndTime',
+            examId: '@Model?.ExamId',
+            isSubmited: '@Model?.Status' == '2',
+            userId: '@Model?.StudentId',
+        }
+    </script>
+    <script src="~/js/examDetails.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,68 @@
+﻿@using GradingPROProjectClient.Models;
+@inject IHttpContextAccessor HttpContextAccessor
+@model UserInfo
+@{
+    ViewData["Title"] = $"User Info - {Model.Email}";
+    var accessToken = HttpContextAccessor?.HttpContext?.Items["AccessToken"] as string;
+}
+<a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-arrow-left me-2"></i>Home</a>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="my-2">
+                <h3>
+                    User detail:  @Html.DisplayFor(model => model.Email)
+                </h3>
+                <hr>
+            </div>
+            <form>
+                <div class="bg-secondary-soft rounded">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.Email)</th>
+                                <td> @Html.DisplayFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })</td>
+                            </tr>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.Code)</th>
+                                <td> @Html.DisplayFor(model => model.Code, new { htmlAttributes = new { @class = "form-control" } })</td>
+                            </tr>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.Fullname)</th>
+                                <td> @Html.DisplayFor(model => model.Fullname, new { htmlAttributes = new { @class = "form-control" } })</td>
+                            </tr>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.Phone)</th>
+                                <td> @Html.DisplayFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })</td>
+                            </tr>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.Address)</th>
+                                <td> @Html.DisplayFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <button type="button" class="btn btn-primary mt-3" id="btnChangePassword">Change password</button>
+                        <button type="button" class="btn btn-primary mt-3" id="btnUpdateInfo">Update info</button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-danger mt-3" id="btnDeleteUser">Delete user</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script>
+        let userInfo = {
+            fullName: '@Model.Fullname',
+            phone: '@Model.Phone',
+            address: '@Model.Address'
+        }
+    </script>
+    <script src="~/js/account.js" asp-append-version="true"></script>
+}

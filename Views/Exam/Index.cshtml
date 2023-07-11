@@ -1,0 +1,131 @@
+﻿@model PagingModel<ExamStudentResponse>
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var accessToken = HttpContextAccessor?.HttpContext?.Items["AccessToken"] as string;
+    ViewData["Title"] = "Exams";
+}
+<head>
+    <style>
+        .student-exam .card-text-custom {
+            margin-bottom: 4px !important;
+        }
+
+        .student-exam .fa-regular {
+            margin-right: 4px !important;
+        }
+
+        .student-exam .badge {
+            display: flex;
+            color: #0078d4;
+            margin-left: 89%;
+            margin-top: -25px;
+            background: white;
+            align-items: center;
+            justify-content: center;
+            box-shadow: gray 2px 1px 5px;
+            padding: 0.35em 0.65em;
+            font-size: .75em;
+            font-weight: 700;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 0.25rem;
+        }
+
+        .student-exam .card {
+            border-radius: 1rem;
+            height: 100%
+        }
+
+        .student-exam .card-body {
+            padding: 1.25rem;
+        }
+
+        .student-exam .card-title {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        .swal2-container-custom {
+            width: 398px !important;
+        }
+    </style>
+</head>
+<button type="button" class="btn btn-primary" id="joinExam">
+    <i class="fa-solid fa-pen"></i>
+    Join Exam
+</button>
+@if (Model != null)
+{
+    <form class="d-flex justify-content-end mb-3" method="get">
+        <div class="input-group rounded w-50">
+            <input type="search" name="search" class="form-control rounded" placeholder="Search by exam code, name" value="@Model.Search" />
+            <button class="btn btn-outline-primary"><i class="fas fa-search"></i> Search</button>
+        </div>
+    </form>
+    <div class="row student-exam">
+        @if (Model.Data.Count > 0)
+        {
+            @foreach (var exam in Model.Data)
+            {
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title u-text-3">@exam.ExamName</h5>
+                            <p class="card-text-custom u-text-3">Code: @exam.ExamCode</p>
+                            <p class="card-text-custom fw-light"><i class="fa-regular fa-clock"></i><span>Start: @exam.ExamStartTime?.ToString("dd/MM/yyyy HH:mm:ss") AM</span></p>
+                            <p class="card-text-custom fw-light"><i class="fa-regular fa-clock"></i><span>End: @exam.ExamEndTime?.ToString("dd/MM/yyyy HH:mm:ss") AM</span></p>
+                            <p class="card-text-custom fw-light">
+                                @await Html.PartialAsync("_ExamStatus", new Tuple<int, DateTime?, DateTime?>(exam.ExamStatus, exam.ExamStartTime, exam.ExamEndTime))
+                            </p>
+                            <p class="card-text-custom fw-light">
+                                @await Html.PartialAsync("_ExamStudentStatus", new Tuple<int, DateTime?, DateTime?, int, DateTime?, DateTime?>(exam.Status, exam.StartTime, exam.SubmitedTime, exam.ExamStatus, exam.ExamStartTime, exam.ExamEndTime))
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <div>
+                                @if (exam.Status == 2 || exam.Status == 3)
+                                {
+                                    <a class="btn btn-success btn-sm" asp-area="" asp-controller="Exam" asp-action="ExamDetail" asp-route-examDetailId="@exam.ExamId">View result</a>
+                                }
+                                else if (exam.Status == 0 && exam.ExamStatusPermission == 1)
+                                {
+                                    <a class="btn btn-primary btn-sm startExam" data-examId="@exam.ExamId">Start Exam</a>
+                                }
+                                else if ((exam.Status == 0 || exam.Status == 1) && exam.ExamStatusPermission == 2)
+                                {
+                                    <button class="btn btn-danger btn-sm" disabled>Not submitted</button>
+                                }
+                                else if (exam.Status == 1 && exam.ExamStatusPermission == 1)
+                                {
+                                    <a class="btn btn-primary btn-sm" asp-area="" asp-controller="Exam" asp-action="ExamDetail" asp-route-examDetailId="@exam.ExamId">Continue Exam</a>
+                                }
+                                else if (exam.ExamStatusPermission == 0)
+                                {
+                                    <button class="btn btn-secondary btn-sm" disabled>Not Started</button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            @await Html.PartialAsync("_Pagination", new Tuple<int, int, Func<int, string>, int>(Model.Page, Model.TotalPages, Model.Url, Model.PageSize))
+        }
+        else
+        {
+            <div class="col-12">
+                <div class="alert alert-warning text-center" role="alert">
+                    <i class="fa-solid fa-info-circle"></i>
+                    <span>You have not joined any exams yet!</span>
+                </div>
+            </div>
+        }
+    </div>
+}
+@section Scripts{
+    <script src="~/js/exam.js" asp-append-version="true"></script>
+}

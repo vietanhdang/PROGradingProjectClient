@@ -1,0 +1,106 @@
+﻿@model Exam
+@{
+    ViewData["Title"] = $"Exam Detail - {Model.ExamName}";
+}
+<style>
+    .container {
+        max-width: 90%;
+    }
+</style>
+<a class="nav-link" asp-controller="Exam" asp-action="ExamManagement"><i class="fas fa-arrow-left me-2"></i>Exam Management</a>
+<h1 class="text-center u-text-4 mb-2">Exam Name: @Model.ExamName</h1>
+<h3 class="text-center u-text-3 mb-3">Exam Code: @Model.ExamCode</h3>
+@if (Model.StartTime != null && Model.EndTime != null)
+{
+    <h5 class="text-center u-text-3 mb-3">Open: @Model.StartTime?.ToString("dd/MM/yyyy HH:mm:ss") - Close: @Model.EndTime?.ToString("dd/MM/yyyy HH:mm:ss")</h5>
+}
+<p class="text-center u-text-3">
+    @await Html.PartialAsync("_ExamStatus", new Tuple<int, DateTime?, DateTime?>(Model.Status, Model.StartTime, Model.EndTime))
+    <h4 class="text-center u-text-3 mb-3">Total Student Active: <span id="totalConnection"></span></h4>
+</p>
+
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Table</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Chart</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-chat" type="button" role="tab" aria-controls="nav-chat" aria-selected="false">Chat</button>
+    </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <table class="table table-bordered table-custom">
+                    <thead>
+                        <tr>
+                            <th class="text-end">Student Id</th>
+                            <th>Student Code</th>
+                            <th>Student Name</th>
+                            <th class="text-center">Start Time</th>
+                            <th class="text-center">Submited Time</th>
+                            <th class="text-center">Status</th>
+                            <th class="text-end">Number of submissions</th>
+                            <th class="text-end">Score</th>
+                            <th class="text-center noExport">Mark Log</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var exam in Model.ExamStudents)
+                        {
+                            <tr data-studentId="@exam.StudentId">
+                                <td class="text-end">@exam.StudentId</td>
+                                <td>@exam.StudentCode</td>
+                                <td>@exam.StudentName</td>
+                                <td class="text-center">@exam.StartTime?.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                                <td class="text-center">@exam.SubmitedTime?.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                                <td class="text-center">
+                                    @await Html.PartialAsync("_ExamStudentStatus", new Tuple<int, DateTime?, DateTime?, int, DateTime?, DateTime?>(exam.Status, exam.StartTime, exam.SubmitedTime, Model.Status, Model.StartTime, Model.EndTime))
+                                </td>
+                                <td class="text-end">@exam.CountTimeSubmit</td>
+                                <td class="text-end">@exam.Score</td>
+                                <td class="text-end">
+                                    @if (exam.Score != null)
+                                    {
+                                        <a data-value="@exam.MarkLog" class="viewMarkLog" href="javascript:void(0)">View Mark Log</a>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="row">
+            <div class="col-md-12">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-chat" role="tabpanel" aria-labelledby="nav-chat-tab">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body" style="height: 500px; overflow-y: scroll;">
+                        <div id="chatContent"></div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="chatMessage" placeholder="Type message here...">
+                            <button class="btn btn-primary" id="btnSendChat">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <script>
+        let jsonData = @Html.Raw(ViewData["ExamDetailJSON"]);
+        window.apiSignalRUrl = `https://localhost:44333/gradingsignalr?groupId=${jsonData.examId}&screen=ExamManagementResult`;
+    </script>
+    <script src="~/js/examManagementResult.js" asp-append-version="true"></script>
+}

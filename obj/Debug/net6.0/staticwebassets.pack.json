@@ -1,0 +1,913 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROGradingProjectClient.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PROGradingProjectClient.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\images\\carousel-2.png",
+      "PackagePath": "staticwebassets\\images\\carousel-2.png"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\images\\carousel-3.png",
+      "PackagePath": "staticwebassets\\images\\carousel-3.png"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\images\\logoFPT.png",
+      "PackagePath": "staticwebassets\\images\\logoFPT.png"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\js\\account.js",
+      "PackagePath": "staticwebassets\\js\\account.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\js\\exam.js",
+      "PackagePath": "staticwebassets\\js\\exam.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\js\\examDetails.js",
+      "PackagePath": "staticwebassets\\js\\examDetails.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\js\\examManagement.js",
+      "PackagePath": "staticwebassets\\js\\examManagement.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\js\\examManagementDetail.js",
+      "PackagePath": "staticwebassets\\js\\examManagementDetail.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\js\\examManagementResult.js",
+      "PackagePath": "staticwebassets\\js\\examManagementResult.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\README.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\README.md"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\bower.json"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\demos\\css\\jquery.toast.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\demos\\css\\jquery.toast.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\demos\\index.html",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\demos\\index.html"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\demos\\js\\jquery.toast.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\demos\\js\\jquery.toast.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\dist\\jquery.toast.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\dist\\jquery.toast.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\dist\\jquery.toast.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\dist\\jquery.toast.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\package.json"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\src\\jquery.toast.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\src\\jquery.toast.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-toast-plugin\\src\\jquery.toast.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-toast-plugin\\src\\jquery.toast.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\microsoft-signalr\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft-signalr\\signalr.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\microsoft-signalr\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft-signalr\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\README.md",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\README.md"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.all.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\package.json",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\package.json"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\SweetAlert.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\SweetAlert.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\SweetAlert.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\SweetAlert.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\constants.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\constants.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\constants.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\constants.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\globalState.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\globalState.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\globalState.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\globalState.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\_destroy.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\_destroy.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\_destroy.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\_destroy.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\_main.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\_main.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\_main.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\_main.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\buttons-handlers.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\buttons-handlers.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\buttons-handlers.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\buttons-handlers.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\close.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\close.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\close.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\close.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\enable-disable-elements.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\enable-disable-elements.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\enable-disable-elements.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\enable-disable-elements.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\getInput.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\getInput.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\getInput.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\getInput.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\hideLoading.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\hideLoading.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\hideLoading.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\hideLoading.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\keydown-handler.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\keydown-handler.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\keydown-handler.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\keydown-handler.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\popup-click-handler.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\popup-click-handler.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\popup-click-handler.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\popup-click-handler.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\progress-steps.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\progress-steps.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\progress-steps.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\progress-steps.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\update.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\update.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\update.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\update.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\validation-message.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\validation-message.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\instanceMethods\\validation-message.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instanceMethods\\validation-message.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\privateMethods.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\privateMethods.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\privateMethods.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\privateMethods.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\privateProps.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\privateProps.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\privateProps.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\privateProps.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\scss\\_animations.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\scss\\_animations.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\scss\\_body.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\scss\\_body.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\scss\\_theming.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\scss\\_theming.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\scss\\_toasts-animations.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\scss\\_toasts-animations.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\scss\\_toasts-body.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\scss\\_toasts-body.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\argsToParams.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\argsToParams.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\argsToParams.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\argsToParams.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\bindClickHandler.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\bindClickHandler.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\bindClickHandler.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\bindClickHandler.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\dom.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\dom.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\dom.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\dom.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\fire.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\fire.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\fire.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\fire.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\mixin.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\mixin.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\mixin.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\mixin.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\showLoading.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\showLoading.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\showLoading.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\showLoading.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\timer.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\timer.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\staticMethods\\timer.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticMethods\\timer.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\sweetalert2.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\sweetalert2.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\sweetalert2.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\sweetalert2.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\DismissReason.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\DismissReason.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\DismissReason.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\DismissReason.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\Timer.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\Timer.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\Timer.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\Timer.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\aria.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\aria.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\aria.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\aria.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\classes.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\classes.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\classes.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\classes.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\defaultInputValidators.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\defaultInputValidators.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\defaultInputValidators.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\defaultInputValidators.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\animationEndEvent.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\animationEndEvent.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\animationEndEvent.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\animationEndEvent.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\domUtils.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\domUtils.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\domUtils.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\domUtils.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\getters.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\getters.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\getters.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\getters.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\index.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\index.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\index.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\index.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\init.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\init.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\init.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\init.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\inputUtils.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\inputUtils.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\inputUtils.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\inputUtils.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\measureScrollbar.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\measureScrollbar.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\measureScrollbar.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\measureScrollbar.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\parseHtmlToContainer.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\parseHtmlToContainer.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\parseHtmlToContainer.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\parseHtmlToContainer.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\render.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\render.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\render.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\render.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderActions.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderActions.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderActions.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderActions.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderCloseButton.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderCloseButton.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderCloseButton.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderCloseButton.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderContainer.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderContainer.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderContainer.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderContainer.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderContent.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderContent.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderContent.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderContent.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderFooter.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderFooter.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderFooter.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderFooter.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderIcon.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderIcon.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderIcon.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderIcon.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderImage.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderImage.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderImage.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderImage.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderInput.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderInput.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderInput.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderInput.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderPopup.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderPopup.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderPopup.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderPopup.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderProgressSteps.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderProgressSteps.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderProgressSteps.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderProgressSteps.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderTitle.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderTitle.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderTitle.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderTitle.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\getTemplateParams.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\getTemplateParams.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\getTemplateParams.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\getTemplateParams.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\iosFix.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\iosFix.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\iosFix.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\iosFix.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\isNodeEnv.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\isNodeEnv.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\isNodeEnv.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\isNodeEnv.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\openPopup.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\openPopup.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\openPopup.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\openPopup.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\params.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\params.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\params.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\params.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\scrollbarFix.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\scrollbarFix.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\scrollbarFix.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\scrollbarFix.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\setParameters.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\setParameters.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\setParameters.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\setParameters.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\utils.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\utils\\utils.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\utils.min.js"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\src\\variables.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\variables.scss"
+    },
+    {
+      "Id": "D:\\FULearning\\Summer2023\\1_PRN231\\PROGradingProjectClient\\PROGradingProjectClient\\wwwroot\\lib\\sweetalert2\\sweetalert2.d.ts",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PROGradingProjectClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PROGradingProjectClient.props",
+      "PackagePath": "build\\PROGradingProjectClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PROGradingProjectClient.props",
+      "PackagePath": "buildMultiTargeting\\PROGradingProjectClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PROGradingProjectClient.props",
+      "PackagePath": "buildTransitive\\PROGradingProjectClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

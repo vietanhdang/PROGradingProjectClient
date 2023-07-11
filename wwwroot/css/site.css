@@ -1,0 +1,134 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.u-text-1 {
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+}
+
+.u-text-2 {
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+}
+
+.u-text-3 {
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+}
+
+.u-text-4 {
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+}
+
+.u-text-4-no {
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+}
+.form-select,
+.form-select option {
+    cursor: pointer;
+}
+
+/* Thiết lập kích thước và màu sắc cho thanh cuộn */
+::-webkit-scrollbar {
+    width: 8px; /* Chiều rộng thanh cuộn */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Màu sắc cho phần thumb */
+    border-radius: 4px; /* Đường viền cong cho phần thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Màu sắc hover cho phần thumb */
+}
+
+/* Định dạng thanh cuộn khi nằm trên một phần tử có class "custom-scrollbar" */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Màu sắc cho phần track */
+    border-radius: 4px; /* Đường viền cong cho phần track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track:hover {
+    background-color: #e0e0e0; /* Màu sắc hover cho phần track */
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0 !important;
+    margin-top: 8px !important;
+    border: none !important;
+    margin-left: 8px !important;
+    border-radius: 50% !important;
+}
+
+.chat-message {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-message-name {
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
+}
+
+/* .chat-message-body {
+    color: #555;
+} */
+
+.chat-message-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.chat-message-text {
+}
+.chat-message-time {
+    font-size: 12px;
+    color: #999;
+}

@@ -1,0 +1,26 @@
+﻿@using GradingPROProjectClient.Models;
+@{
+    var userInfo = Context.Items["UserInfo"] as UserInfo;
+}
+@if (userInfo != null)
+{
+    @if (userInfo.Role == 3)
+    {
+        <ul class="navbar-nav">
+            <li class="nav-item"> 
+                <a class="nav-link text-dark" asp-area="" asp-controller="Exam" asp-action="Index">
+                    <i class="fa-solid fa-pen"></i>
+                    Exam
+                </a>
+            </li>
+        </ul>
+    }
+    @if (userInfo.Role == 2)
+    {
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Exam" asp-action="ExamManagement">Exam Management</a>
+            </li>
+        </ul>
+    }
+}

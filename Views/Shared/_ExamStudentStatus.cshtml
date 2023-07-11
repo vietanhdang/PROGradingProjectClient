@@ -1,0 +1,32 @@
+﻿@*@await Html.PartialAsync("_ExamStudentStatus", new Tuple<int, DateTime?, DateTime?, int, DateTime?, DateTime?>(exam.Status, exam.StartTime, exam.SubmitedTime, exam.ExamStatus, exam.ExamStartTime, exam.ExamEndTime))*@
+
+@model Tuple<int, DateTime?, DateTime?, int, DateTime?, DateTime?>
+
+@*Đang start và chưa nộp và bài thi*@
+@if (Model.Item1 == 1 && Model.Item3 == null)
+{
+    @*nếu bài thi đã kết thúc hoặc vượt quá thời gian thi thì hiển thị chữ "Not Submitted"*@
+    if (Model.Item4 == 2 || (Model.Item5 != null && Model.Item6 != null && Model.Item5.Value <= DateTime.Now && Model.Item6.Value < DateTime.Now))
+    {
+        <span class="text-danger"><i class="fas fa-circle"></i> Not Submitted</span>
+    }
+    else
+    {
+        <span class="text-primary"><i class="fas fa-spinner"></i> In Progress</span>
+    }
+}
+else if (Model.Item1 == 2 || Model.Item3 != null)
+{
+    @*nếu đã có submit hoặc thời gian submit thì hiển thị chữ "Submitted"*@
+    <span class="text-success"><i class="fas fa-check"></i> Submitted</span>
+}
+else if (Model.Item1 == 3 || (Model.Item3 != null && Model.Item3 > Model.Item2))
+{
+    @*nếu đã có submit và thời gian submit lớn hơn thời gian bắt đầu thì hiển thị chữ "Submitted Late"*@
+    <span class="text-warning"><i class="fas fa-exclamation-circle"></i> Submitted Late</span>
+}
+else
+{
+    <span class="text-danger"><i class="fas fa-circle"></i> Not Submitted</span>
+}
+

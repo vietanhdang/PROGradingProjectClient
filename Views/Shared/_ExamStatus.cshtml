@@ -1,0 +1,14 @@
+﻿@* @await Html.PartialAsync("_ExamStudentStatus", new Tuple<int, DateTime?, DateTime?>(exam.Status, exam.StartTime, exam.SubmitedTime)) *@
+@model Tuple<int, DateTime?, DateTime?>
+@if (Model.Item1 == 0)
+{
+    <span class="text-secondary"><i class="fas fa-times-circle"></i> Inactive</span>
+}
+else if (Model.Item1 == 2 || (Model.Item2 != null && Model.Item3 != null && Model.Item2.Value <= DateTime.Now && Model.Item3.Value < DateTime.Now))
+{
+    <span class="text-success"><i class="fas fa-check-double"></i> Finished</span>
+}
+else if (Model.Item1 == 1 || (Model.Item2 != null && Model.Item3 != null && Model.Item2.Value <= DateTime.Now && Model.Item3.Value > DateTime.Now))
+{
+    <span class="text-primary"><i class="fas fa-check-circle"></i> Active</span>
+}

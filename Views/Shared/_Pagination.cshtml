@@ -1,0 +1,56 @@
+﻿@model Tuple<int, int, Func<int, string>, int>
+@*1. Current Page
+2. Total Page
+3. Url
+4. PageSize*@
+@{
+    int startPage = Math.Max(Model.Item1 - 2, 1);
+    int endPage = Math.Min(Model.Item1 + 2, Model.Item2);
+    <nav class="d-flex justify-content-end">
+        <ul class="pagination pagination-circle">
+            <select class="me-3 form-select va-select" onchange="location = this.value;" data-selected="@Model.Item4">
+                <option value='@Model.Item3(1).ToLower().Replace($"pagesize={Model.Item4}", "pageSize=4")' data-value="4">4 records</option>
+                <option value='@Model.Item3(1).ToLower().Replace($"pagesize={Model.Item4}", "pageSize=8")' data-value="8">8 records</option>
+                <option value='@Model.Item3(1).ToLower().Replace($"pagesize={Model.Item4}", "pageSize=16")' data-value="16">16 records</option>
+                <option value='@Model.Item3(1).ToLower().Replace($"pagesize={Model.Item4}", "pageSize=24")' data-value="24">24 records</option>
+            </select>
+
+            @if (Model.Item1 > 1)
+            {
+                <li class="page-item"><a class="page-link" href="@Model.Item3(1)">First</a></li>
+                <li class="page-item"><a class="page-link" href="@Model.Item3(Model.Item1 - 1)">Previous</a></li>
+            }
+
+            @for (int curPage = startPage; curPage <= endPage; curPage++)
+            {
+                // tạo dấu ... khi curPage > 3
+                if (curPage > 3 && curPage == startPage)
+                {
+                    <li class="page-item"><a class="page-link" href="#">...</a></li>
+                }
+                
+                // tạo dấu ... khi curPage < endPage - 2
+                if (curPage < Model.Item2 - 2 && curPage == endPage)
+                {
+                    <li class="page-item"><a class="page-link" href="#">...</a></li>
+                }
+
+                // tạo class active cho trang hiện tại
+                if (curPage == Model.Item1)
+                {
+                    <li class="page-item active"><a class="page-link" href="@Model.Item3(curPage)">@curPage</a></li>
+                }
+                else
+                {
+                    <li class="page-item"><a class="page-link" href="@Model.Item3(curPage)">@curPage</a></li>
+                }
+            }
+
+            @if (Model.Item1 < Model.Item2)
+            {
+                <li class="page-item"><a class="page-link" href="@Model.Item3(Model.Item1 + 1)">Next</a></li>
+                <li class="page-item"><a class="page-link" href="@Model.Item3(Model.Item2)">Last</a></li>
+            }
+        </ul>
+    </nav>
+}

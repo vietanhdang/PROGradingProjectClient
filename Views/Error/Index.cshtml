@@ -1,0 +1,33 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = @Model.Title;
+}
+<style>
+    p {
+        color: #777;
+    }
+</style>
+<div class="main-error-page">
+    <h1 class="error-title u-text-4">
+        @Model.Title
+    </h1>
+    <h2 class="error-subtitle">
+        <p class="u-text-2"> @Model.Message</p>
+    </h2>
+    <h2 class="error-subtitle">
+        @if (Model.ShowRequestId)
+        {
+            <p>
+                <strong>Request ID:</strong> <code>@Model.RequestId</code>
+            </p>
+        }
+    </h2>
+    @if (@Model.ReturnUrl != null)
+    {
+        <a href="@Model.ReturnUrl" class="btn btn-primary">Go back</a>
+    }
+    else
+    {
+        <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Go to Home</a>
+    }
+</div>
